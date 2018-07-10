@@ -1,6 +1,16 @@
-frontend-nanodegree-arcade-game
-===============================
+# Udacity Arcade Game Clone
+Use your arrow keys (left, down, right, up) to navigate your player through the field, but don't touch any bugs!
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+If your player reaches the water without touching any bugs, you win!
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Getting Started
+Clone or download the files to your local repository and open index.html on the browser of your choice.
+
+## Dependencies
+This game relies on the Google Fonts open-use library, accessed remotely via an external stylesheet link
+
+in the Head tag of the index.html file.
+
+Please make sure the app.js, engine.js, and resources.js files are located in the js folder
+
+as well as the style.css file in the css folder. If any of these files are moved or missing, the game will not behave as expected.
